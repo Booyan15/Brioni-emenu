@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Brioni e-menu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <div class="header-top">
+        <div class="logo">СКАРА БРИОНИ</div>
+        <select id="languageSelect">
+          <option value="mk">🇲🇰</option>
+          <option value="en">🇬🇧</option>
+        </select>
+      </div>
+      <div class="hero">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/0a/3b/93/35/make-sure-you-try-our.jpg" alt="Kebab" />
+        <div class="hero-text">
+          <h2>свежо, вкусно и <br>секогаш квалитетно</h2>
+          <h1>Вкус што остава впечаток</h1>
+        </div>
+      </div>
+    </header>
+
+    <nav class="menu-tabs">
+      <button class="tab active" data-category="skara">Скара</button>
+      <button class="tab" data-category="pijaloci">Пијалоци</button>
+      <button class="tab" data-category="salata">Салата</button>
+      <button class="tab" data-category="dodatoci">Додатоци</button>
+    </nav>
+
+    <main id="menuList" class="menu-list">
+      <!-- tuka se prikazuvat produktiteee -->
+    </main>
+    <p id="noProducts" class="no-products hidden">Нема продукти во оваа категорија</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
