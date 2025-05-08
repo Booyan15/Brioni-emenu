@@ -45,10 +45,11 @@ select {
   background: transparent;
   border: none;
   color: #fff;
-  font-size: 1.5rem;   /* bigger text */
+  font-size: 1.2rem;   /* bigger text */
   padding: 0.5rem 1rem; /* more space around text */
   border-radius: 5px;
   cursor: pointer;
+  text-align: right;
 }
 
 
