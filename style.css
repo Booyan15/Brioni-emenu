@@ -49,7 +49,6 @@ select {
   padding: 0.5rem 1rem; /* more space around text */
   border-radius: 5px;
   cursor: pointer;
-  text-align: right;
 }
 
 
