@@ -16,50 +16,176 @@ const menuItems = {
         description: "10 ќебапи, лебче и кромид",
         price: "180 денари",
         category: "skara",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZG31eRzQcP616sEeaBos7VhCuv3PT6vZQ4g&s"
+        image: "back.jpg"
       },
       {
         name: "Порција со 5 ќебапи",
         description: "5 ќебапи, лебче и кромид",
         price: "100 денари",
         category: "skara",
-        image: "https://cdn-bnnnc.nitrocdn.com/nIlAKbgJUruzmbqhcceKInZUvRVgZxjR/assets/images/optimized/rev-a0b671f/ibottling.com/wp-content/uploads/image.jpeg"
+        image: "back.jpg"
       },
       {
         name: "Порција со 15 ќебапи",
         description: "15 ќебапи, лебче и кромид",
         price: "260 денари",
         category: "skara",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/%D0%A8%D0%BE%D0%BF%D1%81%D0%BA%D0%B0_%D1%81%D0%B0%D0%BB%D0%B0%D1%82%D0%B0_%284%29.jpg/500px-%D0%A8%D0%BE%D0%BF%D1%81%D0%BA%D0%B0_%D1%81%D0%B0%D0%BB%D0%B0%D1%82%D0%B0_%284%29.jpg"
+        image: "back.jpg"
       },
       {
         name: "Ќебап (за дома)",
         description: "",
         price: "16 денари",
         category: "skara",
-        image: "https://moirecepti.mk/content/uploads/2020/06/103967496_718247555594397_4272332966851259520_o-c75086-800x600.jpg"
+        image: "back.jpg"
       },
       {
         name: "Порција со колбаси",
         description: "Колбаси, лебче и кромид",
         price: "220 денари",
         category: "skara",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/%D0%A8%D0%BE%D0%BF%D1%81%D0%BA%D0%B0_%D1%81%D0%B0%D0%BB%D0%B0%D1%82%D0%B0_%284%29.jpg/500px-%D0%A8%D0%BE%D0%BF%D1%81%D0%BA%D0%B0_%D1%81%D0%B0%D0%BB%D0%B0%D1%82%D0%B0_%284%29.jpg"
+        image: "back.jpg"
       },
       {
         name: "Плескавица (мала)",
         description: "",
         price: "80 денари",
         category: "skara",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/%D0%A8%D0%BE%D0%BF%D1%81%D0%BA%D0%B0_%D1%81%D0%B0%D0%BB%D0%B0%D1%82%D0%B0_%284%29.jpg/500px-%D0%A8%D0%BE%D0%BF%D1%81%D0%BA%D0%B0_%D1%81%D0%B0%D0%BB%D0%B0%D1%82%D0%B0_%284%29.jpg"
+        image: "back.jpg"
       },
       {
         name: "Порција Грчка плескавица",
-        description: "15 ќебапи, лебче и кромид",
-        price: "260 денари",
+        description: "Грчка плескавица, лебче и кромид",
+        price: "250 денари",
         category: "skara",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/%D0%A8%D0%BE%D0%BF%D1%81%D0%BA%D0%B0_%D1%81%D0%B0%D0%BB%D0%B0%D1%82%D0%B0_%284%29.jpg/500px-%D0%A8%D0%BE%D0%BF%D1%81%D0%BA%D0%B0_%D1%81%D0%B0%D0%BB%D0%B0%D1%82%D0%B0_%284%29.jpg"
+        image: "back.jpg"
       },
+      {
+        name: "Порција Стек",
+        description: "Стек, лебче и кромид",
+        price: "200 денари",
+        category: "skara",
+        image: "back.jpg"
+      },
+      {
+        name: "Порција Пиле",
+        description: "Пиле, лебче и кромид",
+        price: "180 денари",
+        category: "skara",
+        image: "back.jpg"
+      },
+      {
+        name: "Пиперка",
+        description: "Не печена пиперка",
+        price: "30 денари",
+        category: "dodatoci",
+        image: "back.jpg"
+      },
+      {
+        name: "Кајмак",
+        description: "Кајмак",
+        price: "30 денари",
+        category: "dodatoci",
+        image: "back.jpg"
+      },
+      {
+        name: "Пиперка",
+        description: "Печена пиперка",
+        price: "30 денари",
+        category: "dodatoci",
+        image: "back.jpg"
+      },
+      {
+        name: "Лепче",
+        description: "",
+        price: "20 денари",
+        category: "dodatoci",
+        image: "back.jpg"
+      },
+      {
+        name: "Салата мешана(мала)",
+        description: "Краставица, патлиџан, зелка, кромид",
+        price: "70 денари",
+        category: "salata",
+        image: "back.jpg"
+      },
+      {
+        name: "Салата мешана(средна)",
+        description: "Краставица, патлиџан, зелка, кромид",
+        price: "150 денари",
+        category: "salata",
+        image: "back.jpg"
+      },
+      {
+        name: "Салата мешана(голема)",
+        description: "Краставица, патлиџан, зелка, кромид",
+        price: "200 денари",
+        category: "salata",
+        image: "back.jpg"
+      },
+      {
+        name: "Кромид(салата)",
+        description: "Кромид со зачин",
+        price: "30 денари",
+        category: "salata",
+        image: "back.jpg"
+      },
+      {
+        name: "Пиво",
+        description: "",
+        price: "100 денари",
+        category: "pijaloci",
+        image: "back.jpg"
+      },
+      {
+        name: "Хајнекен",
+        description: "",
+        price: "130 денари",
+        category: "pijaloci",
+        image: "back.jpg"
+      },
+      {
+        name: "Сок",
+        description: "",
+        price: "70 денари",
+        category: "pijaloci",
+        image: "back.jpg"
+      },
+      {
+        name: "Вода(обична)",
+        description: "",
+        price: "40 денари",
+        category: "pijaloci",
+        image: "back.jpg"
+      },
+      {
+        name: "Вода(газирана)",
+        description: "",
+        price: "40 денари",
+        category: "pijaloci",
+        image: "back.jpg"
+      },
+      {
+        name: "Вино",
+        description: "",
+        price: "90 денари",
+        category: "pijaloci",
+        image: "back.jpg"
+      },
+      {
+        name: "Ракија",
+        description: "",
+        price: "80 денари",
+        category: "pijaloci",
+        image: "back.jpg"
+      },
+      {
+        name: "Кафе",
+        description: "",
+        price: "50 денари",
+        category: "pijaloci",
+        image: "back.jpg"
+      }
     ]
   },
   en: {
@@ -75,32 +201,179 @@ const menuItems = {
     },
     items: [
       {
-        name: "Kebap",
-        description: "Fresh kebap",
-        price: "15 denars",
+        name: "Portion of 10 Kebaps",
+        description: "10 kebaps, bread and onion",
+        price: "180 denars",
         category: "skara",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZG31eRzQcP616sEeaBos7VhCuv3PT6vZQ4g&s"
+        image: "back.jpg"
       },
       {
-        name: "Coca Cola",
-        description: "Carbonated drink",
+        name: "Portion of 5 Kebaps",
+        description: "5 kebaps, bread and onion",
+        price: "100 denars",
+        category: "skara",
+        image: "back.jpg"
+      },
+      {
+        name: "Portion of 15 Kebaps",
+        description: "15 kebaps, bread and onion",
+        price: "260 denars",
+        category: "skara",
+        image: "back.jpg"
+      },
+      {
+        name: "Kebap (to go)",
+        description: "",
+        price: "16 denars",
+        category: "skara",
+        image: "back.jpg"
+      },
+      {
+        name: "Portion of Sausages",
+        description: "Sausages, bread and onion",
+        price: "220 denars",
+        category: "skara",
+        image: "back.jpg"
+      },
+      {
+        name: "Burger (small)",
+        description: "",
         price: "80 denars",
-        category: "pijaloci",
-        image: "https://cdn-bnnnc.nitrocdn.com/nIlAKbgJUruzmbqhcceKInZUvRVgZxjR/assets/images/optimized/rev-a0b671f/ibottling.com/wp-content/uploads/image.jpeg"
+        category: "skara",
+        image: "back.jpg"
       },
       {
-        name: "Shopska Salad",
-        description: "Cucumbers, eggplant, cheese",
-        price: "130 denars",
-        category: "salata",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/%D0%A8%D0%BE%D0%BF%D1%81%D0%BA%D0%B0_%D1%81%D0%B0%D0%BB%D0%B0%D1%82%D0%B0_%284%29.jpg/500px-%D0%A8%D0%BE%D0%BF%D1%81%D0%BA%D0%B0_%D1%81%D0%B0%D0%BB%D0%B0%D1%82%D0%B0_%284%29.jpg"
+        name: "Greek Burger Portion",
+        description: "Greek burger, bread and onion",
+        price: "250 denars",
+        category: "skara",
+        image: "back.jpg"
+      },
+      {
+        name: "Steak Portion",
+        description: "Steak, bread and onion",
+        price: "200 denars",
+        category: "skara",
+        image: "back.jpg"
+      },
+      {
+        name: "Chicken Portion",
+        description: "Chicken, bread and onion",
+        price: "180 denars",
+        category: "skara",
+        image: "back.jpg"
+      },
+      {
+        name: "Pepper",
+        description: "Raw pepper",
+        price: "30 denars",
+        category: "dodatoci",
+        image: "back.jpg"
+      },
+      {
+        name: "Kaymak",
+        description: "Kaymak",
+        price: "30 denars",
+        category: "dodatoci",
+        image: "back.jpg"
+      },
+      {
+        name: "Roasted Pepper",
+        description: "Roasted pepper",
+        price: "30 denars",
+        category: "dodatoci",
+        image: "back.jpg"
       },
       {
         name: "Bread",
-        description: "Soft bread",
+        description: "",
         price: "20 denars",
         category: "dodatoci",
-        image: "https://moirecepti.mk/content/uploads/2020/06/103967496_718247555594397_4272332966851259520_o-c75086-800x600.jpg"
+        image: "back.jpg"
+      },
+      {
+        name: "Mixed Salad (small)",
+        description: "Cucumber, tomato, cabbage, onion",
+        price: "70 denars",
+        category: "salata",
+        image: "back.jpg"
+      },
+      {
+        name: "Mixed Salad (medium)",
+        description: "Cucumber, tomato, cabbage, onion",
+        price: "150 denars",
+        category: "salata",
+        image: "back.jpg"
+      },
+      {
+        name: "Mixed Salad (large)",
+        description: "Cucumber, tomato, cabbage, onion",
+        price: "200 denars",
+        category: "salata",
+        image: "back.jpg"
+      },
+      {
+        name: "Onion (salad)",
+        description: "Onion with spice",
+        price: "30 denars",
+        category: "salata",
+        image: "back.jpg"
+      },
+      {
+        name: "Beer",
+        description: "",
+        price: "100 denars",
+        category: "pijaloci",
+        image: "back.jpg"
+      },
+      {
+        name: "Heineken",
+        description: "",
+        price: "130 denars",
+        category: "pijaloci",
+        image: "back.jpg"
+      },
+      {
+        name: "Juice",
+        description: "",
+        price: "70 denars",
+        category: "pijaloci",
+        image: "back.jpg"
+      },
+      {
+        name: "Water (still)",
+        description: "",
+        price: "40 denars",
+        category: "pijaloci",
+        image: "back.jpg"
+      },
+      {
+        name: "Water (sparkling)",
+        description: "",
+        price: "40 denars",
+        category: "pijaloci",
+        image: "back.jpg"
+      },
+      {
+        name: "Wine",
+        description: "",
+        price: "90 denars",
+        category: "pijaloci",
+        image: "back.jpg"
+      },
+      {
+        name: "Rakija",
+        description: "",
+        price: "80 denars",
+        category: "pijaloci",
+        image: "back.jpg"
+      },
+      {
+        name: "Coffee",
+        description: "",
+        price: "50 denars",
+        category: "pijaloci",
+        image: "back.jpg"
       }
     ]
   },
@@ -117,32 +390,179 @@ const menuItems = {
     },
     items: [
       {
-        name: "Kebap",
-        description: "Taze kebap",
-        price: "15 denar",
+        name: "10'lu Kebap Porsiyonu",
+        description: "10 kebap, ekmek ve soğan",
+        price: "180 denar",
         category: "skara",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZG31eRzQcP616sEeaBos7VhCuv3PT6vZQ4g&s"
+        image: "back.jpg"
       },
       {
-        name: "Coca Cola",
-        description: "Gazlı içecek",
+        name: "5'li Kebap Porsiyonu",
+        description: "5 kebap, ekmek ve soğan",
+        price: "100 denar",
+        category: "skara",
+        image: "back.jpg"
+      },
+      {
+        name: "15'li Kebap Porsiyonu",
+        description: "15 kebap, ekmek ve soğan",
+        price: "260 denar",
+        category: "skara",
+        image: "back.jpg"
+      },
+      {
+        name: "Kebap (paket)",
+        description: "",
+        price: "16 denar",
+        category: "skara",
+        image: "back.jpg"
+      },
+      {
+        name: "Sosis Porsiyonu",
+        description: "Sosis, ekmek ve soğan",
+        price: "220 denar",
+        category: "skara",
+        image: "back.jpg"
+      },
+      {
+        name: "Köfte (küçük)",
+        description: "",
         price: "80 denar",
-        category: "pijaloci",
-        image: "https://cdn-bnnnc.nitrocdn.com/nIlAKbgJUruzmbqhcceKInZUvRVgZxjR/assets/images/optimized/rev-a0b671f/ibottling.com/wp-content/uploads/image.jpeg"
+        category: "skara",
+        image: "back.jpg"
       },
       {
-        name: "Şopska Salatası",
-        description: "Salatalık, patlıcan, beyaz peynir",
-        price: "130 denar",
-        category: "salata",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/%D0%A8%D0%BE%D0%BF%D1%81%D0%BA%D0%B0_%D1%81%D0%B0%D0%BB%D0%B0%D1%82%D0%B0_%284%29.jpg/500px-%D0%A8%D0%BE%D0%BF%D1%81%D0%BA%D0%B0_%D1%81%D0%B0%D0%BB%D0%B0%D1%82%D0%B0_%284%29.jpg"
+        name: "Yunan Köfte Porsiyonu",
+        description: "Yunan köfte, ekmek ve soğan",
+        price: "250 denar",
+        category: "skara",
+        image: "back.jpg"
+      },
+      {
+        name: "Biftek Porsiyonu",
+        description: "Biftek, ekmek ve soğan",
+        price: "200 denar",
+        category: "skara",
+        image: "back.jpg"
+      },
+      {
+        name: "Tavuk Porsiyonu",
+        description: "Tavuk, ekmek ve soğan",
+        price: "180 denar",
+        category: "skara",
+        image: "back.jpg"
+      },
+      {
+        name: "Biber",
+        description: "Çiğ biber",
+        price: "30 denar",
+        category: "dodatoci",
+        image: "back.jpg"
+      },
+      {
+        name: "Kaymak",
+        description: "Kaymak",
+        price: "30 denar",
+        category: "dodatoci",
+        image: "back.jpg"
+      },
+      {
+        name: "Közlenmiş Biber",
+        description: "Közlenmiş biber",
+        price: "30 denar",
+        category: "dodatoci",
+        image: "back.jpg"
       },
       {
         name: "Ekmek",
-        description: "Yumuşak ekmek",
+        description: "",
         price: "20 denar",
         category: "dodatoci",
-        image: "https://moirecepti.mk/content/uploads/2020/06/103967496_718247555594397_4272332966851259520_o-c75086-800x600.jpg"
+        image: "back.jpg"
+      },
+      {
+        name: "Karışık Salata (küçük)",
+        description: "Salatalık, domates, lahana, soğan",
+        price: "70 denar",
+        category: "salata",
+        image: "back.jpg"
+      },
+      {
+        name: "Karışık Salata (orta)",
+        description: "Salatalık, domates, lahana, soğan",
+        price: "150 denar",
+        category: "salata",
+        image: "back.jpg"
+      },
+      {
+        name: "Karışık Salata (büyük)",
+        description: "Salatalık, domates, lahana, soğan",
+        price: "200 denar",
+        category: "salata",
+        image: "back.jpg"
+      },
+      {
+        name: "Soğan (salata)",
+        description: "Baharatlı soğan",
+        price: "30 denar",
+        category: "salata",
+        image: "back.jpg"
+      },
+      {
+        name: "Bira",
+        description: "",
+        price: "100 denar",
+        category: "pijaloci",
+        image: "back.jpg"
+      },
+      {
+        name: "Heineken",
+        description: "",
+        price: "130 denar",
+        category: "pijaloci",
+        image: "back.jpg"
+      },
+      {
+        name: "Meyve Suyu",
+        description: "",
+        price: "70 denar",
+        category: "pijaloci",
+        image: "back.jpg"
+      },
+      {
+        name: "Su (durgun)",
+        description: "",
+        price: "40 denar",
+        category: "pijaloci",
+        image: "back.jpg"
+      },
+      {
+        name: "Su (gazlı)",
+        description: "",
+        price: "40 denar",
+        category: "pijaloci",
+        image: "back.jpg"
+      },
+      {
+        name: "Şarap",
+        description: "",
+        price: "90 denar",
+        category: "pijaloci",
+        image: "back.jpg"
+      },
+      {
+        name: "Rakija",
+        description: "",
+        price: "80 denar",
+        category: "pijaloci",
+        image: "back.jpg"
+      },
+      {
+        name: "Kahve",
+        description: "",
+        price: "50 denar",
+        category: "pijaloci",
+        image: "back.jpg"
       }
     ]
   }
