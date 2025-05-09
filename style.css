@@ -102,6 +102,7 @@ select {
   background: none;
   cursor: pointer;
   font-weight: bold;
+  color: #4e1c17;
 }
 
 .menu-tabs .active {
