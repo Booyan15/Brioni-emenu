@@ -1,4 +1,3 @@
-/* Layout Fix */
 html, body {
   height: 100%;
   margin: 0;
@@ -29,7 +28,6 @@ html, body {
 }
 
 
-/* Header */
 .header-top {
   display: flex;
   justify-content: space-between;
@@ -46,15 +44,15 @@ select {
   border: none;
   color: #fff;
   font-size: 1.2rem;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
+  padding: 0.5rem 0.5rem;
+  border-radius: 15px;
   cursor: pointer;
   text-align: right;
 }
 
 
 .hero {
-  height: 300px;
+  height: 400px;
   position: relative;
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
@@ -90,7 +88,7 @@ select {
 /* Menu Tabs */
 .menu-tabs {
   display: flex;
-  overflow-x: auto;
+  overflow-x: hidden;
   border-bottom: 1px solid #ccc;
   background-color: #fff5dc;
   margin-top: 0 !important;
@@ -110,9 +108,9 @@ select {
 .menu-tabs .active {
   border-bottom: 3px solid #7c1c14;
   color: #7c1c14;
+
 }
 
-/* Menu List */
   .menu-list {
     flex-grow: 1;
     padding: 1rem;

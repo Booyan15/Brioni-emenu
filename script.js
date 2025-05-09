@@ -582,11 +582,11 @@ const footerText = document.getElementById("footerText");
 function updateHeroAndCategories() {
   const langData = menuItems[currentLang];
 
-  // Update Hero
+  // Updatiranje Hero
   heroTitle.textContent = langData.hero.title;
   heroSubtitle.innerHTML = langData.hero.subtitle;
 
-  // Update Categories
+  // Update kategorii
   tabs.forEach(tab => {
     const category = tab.getAttribute("data-category");
     tab.textContent = langData.categories[category];
@@ -623,7 +623,6 @@ function renderMenu(category) {
   }
 }
 
-// Handle tab clicks
 tabs.forEach(tab => {
   tab.addEventListener("click", () => {
     tabs.forEach(t => t.classList.remove("active"));
@@ -634,7 +633,7 @@ tabs.forEach(tab => {
   });
 });
 
-// Handle language change
+// Handle jazici promena
 languageSelect.addEventListener("change", (e) => {
   currentLang = e.target.value;
   updateHeroAndCategories();
