@@ -1,7 +1,7 @@
 const menuItems = {
   mk: {
     hero: {
-      title: "Вкус што остава впечаток",
+      title: "Вкусот што трае",
       subtitle: "свежо, вкусно и <br>секогаш квалитетно"
     },
     categories: {
@@ -190,7 +190,7 @@ const menuItems = {
   },
   en: {
     hero: {
-      title: "Taste That Leaves an Impression",
+      title: "The taste that lasts",
       subtitle: "Fresh, delicious, and always high quality"
     },
     categories: {
@@ -379,7 +379,7 @@ const menuItems = {
   },
   tr: {
     hero: {
-      title: "İz Bırakan Lezzet",
+      title: "Kalıcı lezzet or Lezzeti uzun süren",
       subtitle: "Taze, lezzetli ve <br>her zaman kaliteli"
     },
     categories: {
