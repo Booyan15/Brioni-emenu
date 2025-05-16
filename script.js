@@ -12,186 +12,242 @@ const menuItems = {
     },
     items: [
       {
-        name: "Порција со 10 ќебапи",
-        description: "10 ќебапи, лебче и кромид",
-        price: "180 денари",
-        category: "skara",
-        image: "back.jpg"
-      },
-      {
         name: "Порција со 5 ќебапи",
         description: "5 ќебапи, лебче и кромид",
         price: "100 денари",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3068.jpg"
+      },
+      {
+        name: "Порција со 6 ќебапи",
+        description: "6 ќебапи, лебче и кромид",
+        price: "120 денари",
+        category: "skara",
+        image: "/brioni sliki/BPP_3069.jpg"
+      },
+      {
+        name: "Порција со 7 ќебапи",
+        description: "7 ќебапи, лебче и кромид",
+        price: "130 денари",
+        category: "skara",
+        image: "/brioni sliki/BPP_3072.jpg"
+      },
+      {
+        name: "Порција со 8 ќебапи",
+        description: "8 ќебапи, лебче и кромид",
+        price: "150 денари",
+        category: "skara",
+        image: "/brioni sliki/BPP_3074.jpg"
+      },
+      {
+        name: "Порција со 10 ќебапи",
+        description: "10 ќебапи, лебче и кромид",
+        price: "180 денари",
+        category: "skara",
+        image: "/brioni sliki/BPP_3076.jpg"
       },
       {
         name: "Порција со 15 ќебапи",
         description: "15 ќебапи, лебче и кромид",
         price: "260 денари",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3084.jpg"
+      },
+      {
+        name: "Порција со 20 ќебапи",
+        description: "20 ќебапи, лебче и кромид",
+        price: "340 денари",
+        category: "skara",
+        image: "/brioni sliki/BPP_3088.jpg"
       },
       {
         name: "Ќебап (за дома)",
         description: "",
         price: "16 денари",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3096.jpg"
       },
       {
         name: "Порција со колбаси",
         description: "Колбаси, лебче и кромид",
         price: "220 денари",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3089.jpg"
+      },
+      {
+        name: "Порција суџук",
+        description: "Суџук, лебче и кромид",
+        price: "220 денари",
+        category: "skara",
+        image: "/brioni sliki/BPP_3092.jpg"
       },
       {
         name: "Плескавица (мала)",
         description: "",
         price: "80 денари",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3098.jpg"
+      },
+      {
+        name: "Плескавица (голема)",
+        description: "",
+        price: "180 денари",
+        category: "skara",
+        image: "/brioni sliki/BPP_3109.jpg"
       },
       {
         name: "Порција Грчка плескавица",
         description: "Грчка плескавица, лебче и кромид",
         price: "250 денари",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3066.jpg"
       },
       {
         name: "Порција Стек",
         description: "Стек, лебче и кромид",
         price: "200 денари",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3065.jpg"
       },
       {
         name: "Порција Пиле",
         description: "Пиле, лебче и кромид",
         price: "180 денари",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3082.jpg"
       },
       {
-        name: "Пиперка",
-        description: "Не печена пиперка",
-        price: "30 денари",
-        category: "dodatoci",
-        image: "back.jpg"
+        name: "Пиле за дома",
+        description: "Пиле",
+        price: "300 денари",
+        category: "skara",
+        image: "/brioni sliki/BPP_3078.jpg"
       },
       {
         name: "Кајмак",
         description: "Кајмак",
         price: "30 денари",
         category: "dodatoci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3121.jpg"
       },
       {
         name: "Пиперка",
         description: "Печена пиперка",
         price: "30 денари",
         category: "dodatoci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3123.jpg"
       },
       {
         name: "Лепче",
         description: "",
         price: "20 денари",
         category: "dodatoci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3141.jpg"
+      },
+      {
+        name: "Шопска салата(мала)",
+        description: "Краставица, патлиџан и сирење",
+        price: "150 денари",
+        category: "salata",
+        image: "/brioni sliki/BPP_3101.jpg"
+      },
+      {
+        name: "Шопска салата(голема)",
+        description: "Краставица, патлиџан и сирење",
+        price: "250 денари",
+        category: "salata",
+        image: "/brioni sliki/BPP_3106.jpg"
       },
       {
         name: "Салата мешана(мала)",
         description: "Краставица, патлиџан, зелка, кромид",
         price: "70 денари",
         category: "salata",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3111.jpg"
       },
       {
         name: "Салата мешана(средна)",
         description: "Краставица, патлиџан, зелка, кромид",
-        price: "150 денари",
+        price: "120 денари",
         category: "salata",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3114.jpg"
       },
       {
         name: "Салата мешана(голема)",
         description: "Краставица, патлиџан, зелка, кромид",
         price: "200 денари",
         category: "salata",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3119.jpg"
       },
       {
         name: "Кромид(салата)",
         description: "Кромид со зачин",
         price: "30 денари",
         category: "salata",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3126.jpg"
       },
       {
         name: "Пиво",
         description: "",
         price: "100 денари",
         category: "pijaloci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3128.jpg"
       },
       {
         name: "Хајнекен",
         description: "",
         price: "130 денари",
         category: "pijaloci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3131.jpg"
       },
       {
         name: "Сок",
         description: "",
         price: "70 денари",
         category: "pijaloci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3133.jpg"
       },
       {
         name: "Вода(обична)",
         description: "",
         price: "40 денари",
         category: "pijaloci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3135.jpg"
       },
       {
         name: "Вода(газирана)",
         description: "",
         price: "40 денари",
         category: "pijaloci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3136.jpg"
       },
       {
         name: "Вино",
         description: "",
         price: "90 денари",
         category: "pijaloci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3138.jpg"
       },
       {
         name: "Ракија",
         description: "",
         price: "80 денари",
         category: "pijaloci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3139.jpg"
       },
       {
         name: "Кафе",
         description: "",
         price: "50 денари",
         category: "pijaloci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3146.jpg"
       }
     ]
   },
   en: {
     hero: {
-      title: "The taste that lasts",
-      subtitle: "Fresh, delicious, and always high quality"
+      title: "Taste That Lasts",
+      subtitle: "fresh, delicious and <br>always quality"
     },
     categories: {
       skara: "Grill",
@@ -201,186 +257,243 @@ const menuItems = {
     },
     items: [
       {
-        name: "Portion of 10 Kebaps",
-        description: "10 kebaps, bread and onion",
-        price: "180 denars",
+        name: "Portion with 5 kebabs",
+        description: "5 kebabs, bread and onions",
+        price: "100 MKD",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3068.jpg"
       },
       {
-        name: "Portion of 5 Kebaps",
-        description: "5 kebaps, bread and onion",
-        price: "100 denars",
+        name: "Portion with 6 kebabs",
+        description: "6 kebabs, bread and onions",
+        price: "120 MKD",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3069.jpg"
       },
       {
-        name: "Portion of 15 Kebaps",
-        description: "15 kebaps, bread and onion",
-        price: "260 denars",
+        name: "Portion with 7 kebabs",
+        description: "7 kebabs, bread and onions",
+        price: "130 MKD",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3072.jpg"
       },
       {
-        name: "Kebap (to go)",
+        name: "Portion with 8 kebabs",
+        description: "8 kebabs, bread and onions",
+        price: "150 MKD",
+        category: "skara",
+        image: "/brioni sliki/BPP_3074.jpg"
+      },
+      {
+        name: "Portion with 10 kebabs",
+        description: "10 kebabs, bread and onions",
+        price: "180 MKD",
+        category: "skara",
+        image: "/brioni sliki/BPP_3076.jpg"
+      },
+      {
+        name: "Portion with 15 kebabs",
+        description: "15 kebabs, bread and onions",
+        price: "260 MKD",
+        category: "skara",
+        image: "/brioni sliki/BPP_3084.jpg"
+      },
+      {
+        name: "Portion with 20 kebabs",
+        description: "20 kebabs, bread and onions",
+        price: "340 MKD",
+        category: "skara",
+        image: "/brioni sliki/BPP_3088.jpg"
+      },
+      {
+        name: "Kebab (for home)",
         description: "",
-        price: "16 denars",
+        price: "16 MKD",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3096.jpg"
       },
       {
-        name: "Portion of Sausages",
-        description: "Sausages, bread and onion",
-        price: "220 denars",
+        name: "Portion with sausages",
+        description: "Sausages, bread and onions",
+        price: "220 MKD",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3089.jpg"
       },
       {
-        name: "Burger (small)",
+        name: "Portion of sudzhuk",
+        description: "Sudzhuk, bread and onions",
+        price: "220 MKD",
+        category: "skara",
+        image: "/brioni sliki/BPP_3092.jpg"
+      },
+      {
+        name: "Small burger patty",
         description: "",
-        price: "80 denars",
+        price: "80 MKD",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3098.jpg"
       },
       {
-        name: "Greek Burger Portion",
-        description: "Greek burger, bread and onion",
-        price: "250 denars",
+        name: "Large burger patty",
+        description: "",
+        price: "180 MKD",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3109.jpg"
       },
       {
-        name: "Steak Portion",
-        description: "Steak, bread and onion",
-        price: "200 denars",
+        name: "Greek burger portion",
+        description: "Greek burger, bread and onions",
+        price: "250 MKD",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3066.jpg"
       },
       {
-        name: "Chicken Portion",
-        description: "Chicken, bread and onion",
-        price: "180 denars",
+        name: "Steak portion",
+        description: "Steak, bread and onions",
+        price: "200 MKD",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3065.jpg"
+      },
+      {
+        name: "Chicken portion",
+        description: "Chicken, bread and onions",
+        price: "180 MKD",
+        category: "skara",
+        image: "/brioni sliki/BPP_3082.jpg"
+      },
+      {
+        name: "Chicken (for home)",
+        description: "Chicken",
+        price: "300 MKD",
+        category: "skara",
+        image: "/brioni sliki/BPP_3078.jpg"
+      },
+      {
+        name: "Kaymak (creamy cheese)",
+        description: "Kaymak",
+        price: "30 MKD",
+        category: "dodatoci",
+        image: "/brioni sliki/BPP_3121.jpg"
       },
       {
         name: "Pepper",
-        description: "Raw pepper",
-        price: "30 denars",
-        category: "dodatoci",
-        image: "back.jpg"
-      },
-      {
-        name: "Kaymak",
-        description: "Kaymak",
-        price: "30 denars",
-        category: "dodatoci",
-        image: "back.jpg"
-      },
-      {
-        name: "Roasted Pepper",
         description: "Roasted pepper",
-        price: "30 denars",
+        price: "30 MKD",
         category: "dodatoci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3123.jpg"
       },
       {
         name: "Bread",
         description: "",
-        price: "20 denars",
+        price: "20 MKD",
         category: "dodatoci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3141.jpg"
       },
       {
-        name: "Mixed Salad (small)",
-        description: "Cucumber, tomato, cabbage, onion",
-        price: "70 denars",
+        name: "Shopska salad (small)",
+        description: "Cucumber, eggplant and cheese",
+        price: "150 MKD",
         category: "salata",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3101.jpg"
       },
       {
-        name: "Mixed Salad (medium)",
-        description: "Cucumber, tomato, cabbage, onion",
-        price: "150 denars",
+        name: "Shopska salad (large)",
+        description: "Cucumber, eggplant and cheese",
+        price: "250 MKD",
         category: "salata",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3106.jpg"
       },
       {
-        name: "Mixed Salad (large)",
-        description: "Cucumber, tomato, cabbage, onion",
-        price: "200 denars",
+        name: "Mixed salad (small)",
+        description: "Cucumber, eggplant, cabbage, onion",
+        price: "70 MKD",
         category: "salata",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3111.jpg"
+      },
+      {
+        name: "Mixed salad (medium)",
+        description: "Cucumber, eggplant, cabbage, onion",
+        price: "120 MKD",
+        category: "salata",
+        image: "/brioni sliki/BPP_3114.jpg"
+      },
+      {
+        name: "Mixed salad (large)",
+        description: "Cucumber, eggplant, cabbage, onion",
+        price: "200 MKD",
+        category: "salata",
+        image: "/brioni sliki/BPP_3119.jpg"
       },
       {
         name: "Onion (salad)",
-        description: "Onion with spice",
-        price: "30 denars",
+        description: "Onion with seasoning",
+        price: "30 MKD",
         category: "salata",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3126.jpg"
       },
       {
         name: "Beer",
         description: "",
-        price: "100 denars",
+        price: "100 MKD",
         category: "pijaloci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3128.jpg"
       },
       {
         name: "Heineken",
         description: "",
-        price: "130 denars",
+        price: "130 MKD",
         category: "pijaloci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3131.jpg"
       },
       {
         name: "Juice",
         description: "",
-        price: "70 denars",
+        price: "70 MKD",
         category: "pijaloci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3133.jpg"
       },
       {
         name: "Water (still)",
         description: "",
-        price: "40 denars",
+        price: "40 MKD",
         category: "pijaloci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3135.jpg"
       },
       {
         name: "Water (sparkling)",
         description: "",
-        price: "40 denars",
+        price: "40 MKD",
         category: "pijaloci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3136.jpg"
       },
       {
         name: "Wine",
         description: "",
-        price: "90 denars",
+        price: "90 MKD",
         category: "pijaloci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3138.jpg"
       },
       {
         name: "Rakija",
         description: "",
-        price: "80 denars",
+        price: "80 MKD",
         category: "pijaloci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3139.jpg"
       },
       {
         name: "Coffee",
         description: "",
-        price: "50 denars",
+        price: "50 MKD",
         category: "pijaloci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3146.jpg"
       }
     ]
   },
+
   tr: {
     hero: {
-      title: "Kalıcı lezzet or Lezzeti uzun süren",
-      subtitle: "Taze, lezzetli ve <br>her zaman kaliteli"
+      title: "Kalıcı Tat",
+      subtitle: "taze, lezzetli ve <br>her zaman kaliteli"
     },
     categories: {
       skara: "Izgara",
@@ -390,186 +503,245 @@ const menuItems = {
     },
     items: [
       {
-        name: "10'lu Kebap Porsiyonu",
-        description: "10 kebap, ekmek ve soğan",
-        price: "180 denar",
+        name: "5 köfte porsiyonu",
+        description: "5 köfte, ekmek ve soğan",
+        price: "100 MKD",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3068.jpg"
       },
       {
-        name: "5'li Kebap Porsiyonu",
-        description: "5 kebap, ekmek ve soğan",
-        price: "100 denar",
+        name: "6 köfte porsiyonu",
+        description: "6 köfte, ekmek ve soğan",
+        price: "120 MKD",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3069.jpg"
       },
       {
-        name: "15'li Kebap Porsiyonu",
-        description: "15 kebap, ekmek ve soğan",
-        price: "260 denar",
+        name: "7 köfte porsiyonu",
+        description: "7 köfte, ekmek ve soğan",
+        price: "130 MKD",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3072.jpg"
       },
       {
-        name: "Kebap (paket)",
+        name: "8 köfte porsiyonu",
+        description: "8 köfte, ekmek ve soğan",
+        price: "150 MKD",
+        category: "skara",
+        image: "/brioni sliki/BPP_3074.jpg"
+      },
+      {
+        name: "10 köfte porsiyonu",
+        description: "10 köfte, ekmek ve soğan",
+        price: "180 MKD",
+        category: "skara",
+        image: "/brioni sliki/BPP_3076.jpg"
+      },
+      {
+        name: "15 köfte porsiyonu",
+        description: "15 köfte, ekmek ve soğan",
+        price: "260 MKD",
+        category: "skara",
+        image: "/brioni sliki/BPP_3084.jpg"
+      },
+      {
+        name: "20 köfte porsiyonu",
+        description: "20 köfte, ekmek ve soğan",
+        price: "340 MKD",
+        category: "skara",
+        image: "/brioni sliki/BPP_3088.jpg"
+      },
+      {
+        name: "Köfte (ev için)",
         description: "",
-        price: "16 denar",
+        price: "16 MKD",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3096.jpg"
       },
       {
-        name: "Sosis Porsiyonu",
-        description: "Sosis, ekmek ve soğan",
-        price: "220 denar",
+        name: "Sucuk porsiyonu",
+        description: "Sucuk, ekmek ve soğan",
+        price: "220 MKD",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3089.jpg"
       },
       {
-        name: "Köfte (küçük)",
+        name: "Sucuk porsiyonu",
+        description: "Sucuk, ekmek ve soğan",
+        price: "220 MKD",
+        category: "skara",
+        image: "/brioni sliki/BPP_3092.jpg"
+      },
+      {
+        name: "Küçük köfte",
         description: "",
-        price: "80 denar",
+        price: "80 MKD",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3098.jpg"
       },
       {
-        name: "Yunan Köfte Porsiyonu",
+        name: "Büyük köfte",
+        description: "",
+        price: "180 MKD",
+        category: "skara",
+        image: "/brioni sliki/BPP_3109.jpg"
+      },
+      {
+        name: "Yunan köfte porsiyonu",
         description: "Yunan köfte, ekmek ve soğan",
-        price: "250 denar",
+        price: "250 MKD",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3066.jpg"
       },
       {
-        name: "Biftek Porsiyonu",
+        name: "Biftek porsiyonu",
         description: "Biftek, ekmek ve soğan",
-        price: "200 denar",
+        price: "200 MKD",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3065.jpg"
       },
       {
-        name: "Tavuk Porsiyonu",
+        name: "Tavuk porsiyonu",
         description: "Tavuk, ekmek ve soğan",
-        price: "180 denar",
+        price: "180 MKD",
         category: "skara",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3082.jpg"
       },
       {
-        name: "Biber",
-        description: "Çiğ biber",
-        price: "30 denar",
-        category: "dodatoci",
-        image: "back.jpg"
+        name: "Tavuk (ev için)",
+        description: "Tavuk",
+        price: "300 MKD",
+        category: "skara",
+        image: "/brioni sliki/BPP_3078.jpg"
       },
       {
         name: "Kaymak",
         description: "Kaymak",
-        price: "30 denar",
+        price: "30 MKD",
         category: "dodatoci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3121.jpg"
       },
       {
-        name: "Közlenmiş Biber",
+        name: "Biber",
         description: "Közlenmiş biber",
-        price: "30 denar",
+        price: "30 MKD",
         category: "dodatoci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3123.jpg"
       },
       {
         name: "Ekmek",
         description: "",
-        price: "20 denar",
+        price: "20 MKD",
         category: "dodatoci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3141.jpg"
       },
       {
-        name: "Karışık Salata (küçük)",
-        description: "Salatalık, domates, lahana, soğan",
-        price: "70 denar",
+        name: "Şopska salata (küçük)",
+        description: "Salatalık, patlıcan ve peynir",
+        price: "150 MKD",
         category: "salata",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3101.jpg"
       },
       {
-        name: "Karışık Salata (orta)",
-        description: "Salatalık, domates, lahana, soğan",
-        price: "150 denar",
+        name: "Şopska salata (büyük)",
+        description: "Salatalık, patlıcan ve peynir",
+        price: "250 MKD",
         category: "salata",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3106.jpg"
       },
       {
-        name: "Karışık Salata (büyük)",
-        description: "Salatalık, domates, lahana, soğan",
-        price: "200 denar",
+        name: "Karışık salata (küçük)",
+        description: "Salatalık, patlıcan, lahana, soğan",
+        price: "70 MKD",
         category: "salata",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3111.jpg"
+      },
+      {
+        name: "Karışık salata (orta)",
+        description: "Salatalık, patlıcan, lahana, soğan",
+        price: "120 MKD",
+        category: "salata",
+        image: "/brioni sliki/BPP_3114.jpg"
+      },
+      {
+        name: "Karışık salata (büyük)",
+        description: "Salatalık, patlıcan, lahana, soğan",
+        price: "200 MKD",
+        category: "salata",
+        image: "/brioni sliki/BPP_3119.jpg"
       },
       {
         name: "Soğan (salata)",
         description: "Baharatlı soğan",
-        price: "30 denar",
+        price: "30 MKD",
         category: "salata",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3126.jpg"
       },
       {
         name: "Bira",
         description: "",
-        price: "100 denar",
+        price: "100 MKD",
         category: "pijaloci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3128.jpg"
       },
       {
         name: "Heineken",
         description: "",
-        price: "130 denar",
+        price: "130 MKD",
         category: "pijaloci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3131.jpg"
       },
       {
-        name: "Meyve Suyu",
+        name: "Meyve suyu",
         description: "",
-        price: "70 denar",
+        price: "70 MKD",
         category: "pijaloci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3133.jpg"
       },
       {
         name: "Su (durgun)",
         description: "",
-        price: "40 denar",
+        price: "40 MKD",
         category: "pijaloci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3135.jpg"
       },
       {
         name: "Su (gazlı)",
         description: "",
-        price: "40 denar",
+        price: "40 MKD",
         category: "pijaloci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3136.jpg"
       },
       {
         name: "Şarap",
         description: "",
-        price: "90 denar",
+        price: "90 MKD",
         category: "pijaloci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3138.jpg"
       },
       {
         name: "Rakija",
         description: "",
-        price: "80 denar",
+        price: "80 MKD",
         category: "pijaloci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3139.jpg"
       },
       {
         name: "Kahve",
         description: "",
-        price: "50 denar",
+        price: "50 MKD",
         category: "pijaloci",
-        image: "back.jpg"
+        image: "/brioni sliki/BPP_3146.jpg"
       }
     ]
   }
 };
 
+
+
 let currentLang = "mk";
 let currentCategory = "skara";
+
 
 const menuList = document.getElementById("menuList");
 const tabs = document.querySelectorAll(".tab");
@@ -651,3 +823,14 @@ languageSelect.addEventListener("change", (e) => {
 // Initial load
 updateHeroAndCategories();
 renderMenu(currentCategory);
+
+document.querySelectorAll('.lang-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    const selectedLang = btn.dataset.lang;
+    // Call your language change logic here using `selectedLang`
+    console.log("Selected language:", selectedLang);
+  });
+});
