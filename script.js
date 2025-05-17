@@ -16,7 +16,7 @@ const menuItems = {
         description: "5 ќебапи, лебче и кромид",
         price: "100 денари",
         category: "skara",
-        image: "BPP_3068.jpg"
+        image: "BPP_3068JPG.jpg"
       },
       {
         name: "Порција со 6 ќебапи",
