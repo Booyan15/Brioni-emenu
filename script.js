@@ -84,7 +84,7 @@ const menuItems = {
       {
         name: "Плескавица (мала)",
         description: "",
-        price: "80 денари",
+        price: "100 денари",
         category: "skara",
         image: "BPP_3098JPG.jpg"
       },
@@ -110,6 +110,13 @@ const menuItems = {
         image: "BPP_3065JPG.jpg"
       },
       {
+        name: "Порција копан",
+        description: "Копан, лебче и кромид",
+        price: "200 денари",
+        category: "skara",
+        image: "BPP_3093JPG.jpg"
+      },
+      {
         name: "Порција Пиле",
         description: "Пиле, лебче и кромид",
         price: "180 денари",
@@ -126,7 +133,7 @@ const menuItems = {
       {
         name: "Кајмак",
         description: "Кајмак",
-        price: "30 денари",
+        price: "50 денари",
         category: "dodatoci",
         image: "BPP_3121JPG.jpg"
       },
@@ -222,14 +229,14 @@ const menuItems = {
         image: "BPP_3136JPG.jpg"
       },
       {
-        name: "Вино",
+        name: "Вино 0.5l",
         description: "",
-        price: "90 денари",
+        price: "180 денари",
         category: "pijaloci",
         image: "BPP_3138JPG.jpg"
       },
       {
-        name: "Ракија",
+        name: "Ракија 50ml",
         description: "",
         price: "80 денари",
         category: "pijaloci",
@@ -329,7 +336,7 @@ const menuItems = {
       {
         name: "Small burger patty",
         description: "",
-        price: "80 MKD",
+        price: "100 MKD",
         category: "skara",
         image: "BPP_3098JPG.jpg"
       },
@@ -355,6 +362,13 @@ const menuItems = {
         image: "BPP_3065JPG.jpg"
       },
       {
+        name: "Chicken drumstick portion",
+        description: "Drumstick, bread, and onion",
+        price: "200 MKD",
+        category: "skara",
+        image: "BPP_3093JPG.jpg",
+      },
+      {
         name: "Chicken portion",
         description: "Chicken, bread and onions",
         price: "180 MKD",
@@ -371,7 +385,7 @@ const menuItems = {
       {
         name: "Kaymak (creamy cheese)",
         description: "Kaymak",
-        price: "30 MKD",
+        price: "50 MKD",
         category: "dodatoci",
         image: "BPP_3121JPG.jpg"
       },
@@ -467,9 +481,9 @@ const menuItems = {
         image: "BPP_3136JPG.jpg"
       },
       {
-        name: "Wine",
+        name: "Wine 0.5l",
         description: "",
-        price: "90 MKD",
+        price: "180 MKD",
         category: "pijaloci",
         image: "BPP_3138JPG.jpg"
       },
@@ -575,7 +589,7 @@ const menuItems = {
       {
         name: "Küçük köfte",
         description: "",
-        price: "80 MKD",
+        price: "100 MKD",
         category: "skara",
         image: "BPP_3098JPG.jpg"
       },
@@ -601,6 +615,13 @@ const menuItems = {
         image: "BPP_3065JPG.jpg"
       },
       {
+        name: "But porsiyonu",
+        description: "But, ekmek ve soğan",
+        price: "200 MKD",
+        category: "ızgara",
+        image: "BPP_3093JPG.jpg"
+      },
+      {
         name: "Tavuk porsiyonu",
         description: "Tavuk, ekmek ve soğan",
         price: "180 MKD",
@@ -617,7 +638,7 @@ const menuItems = {
       {
         name: "Kaymak",
         description: "Kaymak",
-        price: "30 MKD",
+        price: "50 MKD",
         category: "dodatoci",
         image: "BPP_3121JPG.jpg"
       },
@@ -713,14 +734,14 @@ const menuItems = {
         image: "BPP_3136JPG.jpg"
       },
       {
-        name: "Şarap",
+        name: "Şarap 0.5l",
         description: "",
-        price: "90 MKD",
+        price: "180 MKD",
         category: "pijaloci",
         image: "BPP_3138JPG.jpg"
       },
       {
-        name: "Rakija",
+        name: "Rakija 50ml",
         description: "",
         price: "80 MKD",
         category: "pijaloci",
