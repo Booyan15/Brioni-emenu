@@ -131,6 +131,20 @@ const menuItems = {
         image: "BPP_3078JPG.jpg"
       },
       {
+        name: "Сендвич со ќебапи",
+        description: "5 ќебапи, лебче и салата",
+        price: "100 денари",
+        category: "skara",
+        image: "BPP_3147JPG.jpg"
+      },
+      {
+        name: "Сендвич со пилешки копан",
+        description: "пилешки копан, лебче и салата",
+        price: "110 денари",
+        category: "skara",
+        image: "BPP_3148JPG.jpg"
+      },
+      {
         name: "Кајмак",
         description: "Кајмак",
         price: "50 денари",
@@ -152,18 +166,11 @@ const menuItems = {
         image: "BPP_3141JPG.jpg"
       },
       {
-        name: "Шопска салата(мала)",
-        description: "Краставица, патлиџан и сирење",
-        price: "150 денари",
+        name: "Кромид(салата)",
+        description: "Кромид со зачин",
+        price: "30 денари",
         category: "salata",
-        image: "BPP_3101JPG.jpg"
-      },
-      {
-        name: "Шопска салата(голема)",
-        description: "Краставица, патлиџан и сирење",
-        price: "250 денари",
-        category: "salata",
-        image: "BPP_3106JPG.jpg"
+        image: "BPP_3126JPG.jpg"
       },
       {
         name: "Салата мешана(мала)",
@@ -182,16 +189,30 @@ const menuItems = {
       {
         name: "Салата мешана(голема)",
         description: "Краставица, патлиџан, зелка, кромид",
+        price: "150 денари",
+        category: "salata",
+        image: "BPP_3119JPG.jpg"
+      },
+      {
+        name: "Салата мешана(голема)",
+        description: "Краставица, патлиџан, зелка, кромид",
         price: "200 денари",
         category: "salata",
         image: "BPP_3119JPG.jpg"
       },
       {
-        name: "Кромид(салата)",
-        description: "Кромид со зачин",
-        price: "30 денари",
+        name: "Шопска салата(мала)",
+        description: "Краставица, патлиџан и сирење",
+        price: "150 денари",
         category: "salata",
-        image: "BPP_3126JPG.jpg"
+        image: "BPP_3101JPG.jpg"
+      },
+      {
+        name: "Шопска салата(голема)",
+        description: "Краставица, патлиџан и сирење",
+        price: "250 денари",
+        category: "salata",
+        image: "BPP_3106JPG.jpg"
       },
       {
         name: "Пиво",
@@ -383,6 +404,20 @@ const menuItems = {
         image: "BPP_3078JPG.jpg"
       },
       {
+        name: "kebab sandwich",
+        description: "5 kebabs, bread and salad",
+        price: "100 MKD",
+        category: "skara",
+        image: "BPP_3147JPG.jpg"
+      },
+      {
+        name: "Sandwich with chicken drumstick",
+        description: "chicken drumstick, bread and salad",
+        price: "110 MKD",
+        category: "skara",
+        image: "BPP_3148JPG.jpg"
+      },
+      {
         name: "Kaymak (creamy cheese)",
         description: "Kaymak",
         price: "50 MKD",
@@ -404,18 +439,11 @@ const menuItems = {
         image: "BPP_3141JPG.jpg"
       },
       {
-        name: "Shopska salad (small)",
-        description: "Cucumber, eggplant and cheese",
-        price: "150 MKD",
+        name: "Onion (salad)",
+        description: "Onion with seasoning",
+        price: "30 MKD",
         category: "salata",
-        image: "BPP_3101JPG.jpg"
-      },
-      {
-        name: "Shopska salad (large)",
-        description: "Cucumber, eggplant and cheese",
-        price: "250 MKD",
-        category: "salata",
-        image: "BPP_3106JPG.jpg"
+        image: "BPP_3126JPG.jpg"
       },
       {
         name: "Mixed salad (small)",
@@ -434,16 +462,30 @@ const menuItems = {
       {
         name: "Mixed salad (large)",
         description: "Cucumber, eggplant, cabbage, onion",
+        price: "150 MKD",
+        category: "salata",
+        image: "BPP_3119JPG.jpg"
+      },
+      {
+        name: "Mixed salad (large)",
+        description: "Cucumber, eggplant, cabbage, onion",
         price: "200 MKD",
         category: "salata",
         image: "BPP_3119JPG.jpg"
       },
       {
-        name: "Onion (salad)",
-        description: "Onion with seasoning",
-        price: "30 MKD",
+        name: "Shopska salad (small)",
+        description: "Cucumber, eggplant and cheese",
+        price: "150 MKD",
         category: "salata",
-        image: "BPP_3126JPG.jpg"
+        image: "BPP_3101JPG.jpg"
+      },
+      {
+        name: "Shopska salad (large)",
+        description: "Cucumber, eggplant and cheese",
+        price: "250 MKD",
+        category: "salata",
+        image: "BPP_3106JPG.jpg"
       },
       {
         name: "Beer",
@@ -517,49 +559,49 @@ const menuItems = {
     },
     items: [
       {
-        name: "5 köfte porsiyonu",
+        name: "5 köfte porsiyon",
         description: "5 köfte, ekmek ve soğan",
         price: "100 MKD",
         category: "skara",
         image: "BPP_3068JPG.jpg"
       },
       {
-        name: "6 köfte porsiyonu",
+        name: "6 köfte porsiyon",
         description: "6 köfte, ekmek ve soğan",
         price: "120 MKD",
         category: "skara",
         image: "BPP_3069JPG.jpg"
       },
       {
-        name: "7 köfte porsiyonu",
+        name: "7 köfte porsiyon",
         description: "7 köfte, ekmek ve soğan",
         price: "130 MKD",
         category: "skara",
         image: "BPP_3072JPG.jpg"
       },
       {
-        name: "8 köfte porsiyonu",
+        name: "8 köfte porsiyon",
         description: "8 köfte, ekmek ve soğan",
         price: "150 MKD",
         category: "skara",
         image: "BPP_3074JPG.jpg"
       },
       {
-        name: "10 köfte porsiyonu",
+        name: "10 köfte porsiyon",
         description: "10 köfte, ekmek ve soğan",
         price: "180 MKD",
         category: "skara",
         image: "BPP_3076JPG.jpg"
       },
       {
-        name: "15 köfte porsiyonu",
+        name: "15 köfte porsiyon",
         description: "15 köfte, ekmek ve soğan",
         price: "260 MKD",
         category: "skara",
         image: "BPP_3084JPG.jpg"
       },
       {
-        name: "20 köfte porsiyonu",
+        name: "20 köfte porsiyon",
         description: "20 köfte, ekmek ve soğan",
         price: "340 MKD",
         category: "skara",
@@ -573,14 +615,14 @@ const menuItems = {
         image: "BPP_3096JPG.jpg"
       },
       {
-        name: "Sucuk porsiyonu",
+        name: "Sucuk porsiyon",
         description: "Sucuk, ekmek ve soğan",
         price: "220 MKD",
         category: "skara",
         image: "BPP_3089JPG.jpg"
       },
       {
-        name: "Sucuk porsiyonu",
+        name: "Sucuk porsiyon",
         description: "Sucuk, ekmek ve soğan",
         price: "220 MKD",
         category: "skara",
@@ -601,28 +643,28 @@ const menuItems = {
         image: "BPP_3109JPG.jpg"
       },
       {
-        name: "Yunan köfte porsiyonu",
+        name: "Yunan köfte porsiyon",
         description: "Yunan köfte, ekmek ve soğan",
         price: "250 MKD",
         category: "skara",
         image: "BPP_3066JPG.jpg"
       },
       {
-        name: "Biftek porsiyonu",
+        name: "Biftek porsiyon",
         description: "Biftek, ekmek ve soğan",
         price: "200 MKD",
         category: "skara",
         image: "BPP_3065JPG.jpg"
       },
       {
-        name: "But porsiyonu",
+        name: "But porsiyon",
         description: "But, ekmek ve soğan",
         price: "200 MKD",
         category: "ızgara",
         image: "BPP_3093JPG.jpg"
       },
       {
-        name: "Tavuk porsiyonu",
+        name: "Tavuk porsiyon",
         description: "Tavuk, ekmek ve soğan",
         price: "180 MKD",
         category: "skara",
@@ -634,6 +676,20 @@ const menuItems = {
         price: "300 MKD",
         category: "skara",
         image: "BPP_3078JPG.jpg"
+      },
+      {
+        name: "Kebaplı sandviç",
+        description: "5 kebap, ekmek ve salata",
+        price: "100 MKD",
+        category: "skara",
+        image: "BPP_3147JPG.jpg"
+      },
+      {
+        name: "tavuk baget sandviç",
+        description: "tavuk baget, ekmek ve salata",
+        price: "110 денари",
+        category: "skara",
+        image: "BPP_3148JPG.jpg"
       },
       {
         name: "Kaymak",
@@ -657,18 +713,11 @@ const menuItems = {
         image: "BPP_3141JPG.jpg"
       },
       {
-        name: "Şopska salata (küçük)",
-        description: "Salatalık, patlıcan ve peynir",
-        price: "150 MKD",
+        name: "Soğan (salata)",
+        description: "Baharatlı soğan",
+        price: "30 MKD",
         category: "salata",
-        image: "BPP_3101JPG.jpg"
-      },
-      {
-        name: "Şopska salata (büyük)",
-        description: "Salatalık, patlıcan ve peynir",
-        price: "250 MKD",
-        category: "salata",
-        image: "BPP_3106JPG.jpg"
+        image: "BPP_3126JPG.jpg"
       },
       {
         name: "Karışık salata (küçük)",
@@ -687,16 +736,30 @@ const menuItems = {
       {
         name: "Karışık salata (büyük)",
         description: "Salatalık, patlıcan, lahana, soğan",
+        price: "150 MKD",
+        category: "salata",
+        image: "BPP_3119JPG.jpg"
+      },
+      {
+        name: "Karışık salata (büyük)",
+        description: "Salatalık, patlıcan, lahana, soğan",
         price: "200 MKD",
         category: "salata",
         image: "BPP_3119JPG.jpg"
       },
       {
-        name: "Soğan (salata)",
-        description: "Baharatlı soğan",
-        price: "30 MKD",
+        name: "Şopska salata (küçük)",
+        description: "Salatalık, patlıcan ve peynir",
+        price: "150 MKD",
         category: "salata",
-        image: "BPP_3126JPG.jpg"
+        image: "BPP_3101JPG.jpg"
+      },
+      {
+        name: "Şopska salata (büyük)",
+        description: "Salatalık, patlıcan ve peynir",
+        price: "250 MKD",
+        category: "salata",
+        image: "BPP_3106JPG.jpg"
       },
       {
         name: "Bira",
