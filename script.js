@@ -154,7 +154,7 @@ const menuItems = {
       {
         name: "Пиперка",
         description: "Печена пиперка",
-        price: "30 денари",
+        price: "20/30 денари",
         category: "dodatoci",
         image: "BPP_3123JPG.jpg"
       },
@@ -216,7 +216,7 @@ const menuItems = {
       },
       {
         name: "Пиво",
-        description: "",
+        description: "Златен Даб Амбер, Скопско, Крали Марко, Златен Даб, Скопско Смут",
         price: "100 денари",
         category: "pijaloci",
         image: "BPP_3128JPG.jpg"
@@ -230,35 +230,35 @@ const menuItems = {
       },
       {
         name: "Сок",
-        description: "",
+        description: "Миринда Лимон, Пепси, Миринда Портокал, Севен Ап, Газоза, Праска, Јаболко, Портокал",
         price: "70 денари",
         category: "pijaloci",
         image: "BPP_3133JPG.jpg"
       },
       {
         name: "Вода(обична)",
-        description: "",
+        description: "Пелистерка, Изворска",
         price: "40 денари",
         category: "pijaloci",
         image: "BPP_3135JPG.jpg"
       },
       {
         name: "Вода(газирана)",
-        description: "",
+        description: "Пелистерка, Кожувчанка",
         price: "40 денари",
         category: "pijaloci",
         image: "BPP_3136JPG.jpg"
       },
       {
         name: "Вино 0.5l",
-        description: "",
+        description: "Смедеревка, Розе",
         price: "180 денари",
         category: "pijaloci",
         image: "BPP_3138JPG.jpg"
       },
       {
         name: "Ракија 50ml",
-        description: "",
+        description: "Мастика, Лозова Ракија, Бадел",
         price: "80 денари",
         category: "pijaloci",
         image: "BPP_3139JPG.jpg"
@@ -427,7 +427,7 @@ const menuItems = {
       {
         name: "Pepper",
         description: "Roasted pepper",
-        price: "30 MKD",
+        price: "20/30 MKD",
         category: "dodatoci",
         image: "BPP_3123JPG.jpg"
       },
@@ -489,7 +489,7 @@ const menuItems = {
       },
       {
         name: "Beer",
-        description: "",
+        description: "Zlaten Dab Amber, Skopsko, Krali Marko, Zlaten Dab, Skopsko Smooth",
         price: "100 MKD",
         category: "pijaloci",
         image: "BPP_3128JPG.jpg"
@@ -503,35 +503,35 @@ const menuItems = {
       },
       {
         name: "Juice",
-        description: "",
+        description: "Mirinda Lemon, Pepsi, Mirinda Orange, Seven Up, Gazosa, Peach, Apple, Orange",
         price: "70 MKD",
         category: "pijaloci",
         image: "BPP_3133JPG.jpg"
       },
       {
         name: "Water (still)",
-        description: "",
+        description: "Izvorska, Pelisterka",
         price: "40 MKD",
         category: "pijaloci",
         image: "BPP_3135JPG.jpg"
       },
       {
         name: "Water (sparkling)",
-        description: "",
+        description: "Pelisterka, Kozuvchanka",
         price: "40 MKD",
         category: "pijaloci",
         image: "BPP_3136JPG.jpg"
       },
       {
         name: "Wine 0.5l",
-        description: "",
+        description: "Smederivka, Rose",
         price: "180 MKD",
         category: "pijaloci",
         image: "BPP_3138JPG.jpg"
       },
       {
         name: "Rakija",
-        description: "",
+        description: "Mastika, Grape Rakija, Badel",
         price: "80 MKD",
         category: "pijaloci",
         image: "BPP_3139JPG.jpg"
@@ -701,7 +701,7 @@ const menuItems = {
       {
         name: "Biber",
         description: "Közlenmiş biber",
-        price: "30 MKD",
+        price: "20/30 MKD",
         category: "dodatoci",
         image: "BPP_3123JPG.jpg"
       },
@@ -763,7 +763,7 @@ const menuItems = {
       },
       {
         name: "Bira",
-        description: "",
+        description: "Zlaten Dab Amber, Skopsko, Krali Marko, Zlaten Dab, Skopsko Smooth",
         price: "100 MKD",
         category: "pijaloci",
         image: "BPP_3128JPG.jpg"
@@ -777,35 +777,35 @@ const menuItems = {
       },
       {
         name: "Meyve suyu",
-        description: "",
+        description: "Mirinda Limon, Pepsi, Mirinda Portakal, Seven Up, Gazoz, Şeftali, Elma, Portakal",
         price: "70 MKD",
         category: "pijaloci",
         image: "BPP_3133JPG.jpg"
       },
       {
         name: "Su (durgun)",
-        description: "",
+        description: "Pelisterka, Izvorska",
         price: "40 MKD",
         category: "pijaloci",
         image: "BPP_3135JPG.jpg"
       },
       {
         name: "Su (gazlı)",
-        description: "",
+        description: "Pelisterka, Kozuvchanka",
         price: "40 MKD",
         category: "pijaloci",
         image: "BPP_3136JPG.jpg"
       },
       {
         name: "Şarap 0.5l",
-        description: "",
+        description: "Smederevka, Rose",
         price: "180 MKD",
         category: "pijaloci",
         image: "BPP_3138JPG.jpg"
       },
       {
         name: "Rakija 50ml",
-        description: "",
+        description: "Mastika, Üzüm Rakısı, Badel",
         price: "80 MKD",
         category: "pijaloci",
         image: "BPP_3139JPG.jpg"
@@ -918,3 +918,67 @@ document.querySelectorAll('.lang-btn').forEach(btn => {
     console.log("Selected language:", selectedLang);
   });
 });
+
+// ...existing code...
+
+// Modal logic
+const foodModal = document.getElementById("foodModal");
+const modalImg = document.getElementById("modalImg");
+const modalName = document.getElementById("modalName");
+const modalDesc = document.getElementById("modalDesc");
+const modalPrice = document.getElementById("modalPrice");
+const closeModal = document.querySelector(".modal .close");
+
+function openModal(item) {
+  modalImg.src = item.image;
+  modalImg.alt = item.name;
+  modalName.textContent = item.name;
+  modalDesc.textContent = item.description;
+  modalPrice.textContent = item.price;
+  foodModal.classList.remove("hidden");
+}
+
+closeModal.addEventListener("click", () => {
+  foodModal.classList.add("hidden");
+});
+
+foodModal.addEventListener("click", (e) => {
+  if (e.target === foodModal) {
+    foodModal.classList.add("hidden");
+  }
+});
+
+// Update renderMenu to add click event to each menu item
+function renderMenu(category) {
+  menuList.innerHTML = "";
+  const filtered = menuItems[currentLang].items.filter(item => item.category === category);
+
+  if (filtered.length === 0) {
+    noProductsMsg.classList.remove("hidden");
+    noProductsMsg.textContent =
+      currentLang === "mk"
+        ? "Нема производи"
+        : currentLang === "tr"
+        ? "Ürün yok"
+        : "No products available";
+  } else {
+    noProductsMsg.classList.add("hidden");
+    filtered.forEach(item => {
+      const div = document.createElement("div");
+      div.className = "menu-item";
+      div.innerHTML = `
+        <img src="${item.image}" alt="${item.name}" />
+        <div class="details">
+          <h4>${item.name}</h4>
+          <p>${item.description}</p>
+          <div class="price">${item.price}</div>
+        </div>
+      `;
+      // Add click event to open modal
+      div.addEventListener("click", () => openModal(item));
+      menuList.appendChild(div);
+    });
+  }
+}
+
+// ...existing code...

@@ -39,7 +39,17 @@
         <button class="tab" data-category="salata">Салата</button>
         <button class="tab" data-category="dodatoci">Додатоци</button>
       </nav>
-
+      <div id="foodModal" class="modal hidden">
+        <div class="modal-card">
+          <span class="close">&times;</span>
+          <img id="modalImg" src="" alt="" />
+          <div class="modal-info">
+            <h4 id="modalName"></h4>
+            <p id="modalDesc"></p>
+            <div id="modalPrice"></div>
+          </div>
+        </div>
+      </div>
       <main id="menuList" class="menu-list">
         <!-- tuka se prikazuvat produktiteee -->
       </main>

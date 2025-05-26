@@ -190,3 +190,101 @@ select {
   font-size: 0.9rem;
 }
 
+/* --- Modal Card Styles --- */
+.modal {
+  display: flex;
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(30, 30, 30, 0.85);
+  align-items: center; justify-content: center;
+}
+.modal.hidden { display: none; }
+.modal-card {
+  background: #f7f7f7;
+  border-radius: 40px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  max-width: 420px;
+  width: 95vw;
+  min-height: 600px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  position: relative;
+  animation: modalIn 0.3s;
+  padding-bottom: 1.5rem;
+}
+@keyframes modalIn {
+  from { transform: scale(0.95) translateY(30px); opacity: 0; }
+  to { transform: scale(1) translateY(0); opacity: 1; }
+}
+.modal-card img {
+  width: 100%;
+  height: 340px; /* Increased height for a bigger image */
+  object-fit: cover;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  background: #eee;
+  display: block;
+}
+.modal-info {
+  padding: 2rem 1.5rem 0.5rem 1.5rem;
+  text-align: left;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.modal-info h4 {
+  margin: 0 0 0.7rem 0;
+  font-size: 2rem;
+  color: #7c1c14;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+.modal-info p {
+  color: #7c1c14;
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+}
+#modalPrice {
+  font-size: 1.3rem;
+  color: #6c160e;
+  font-weight: 700;
+  margin-top: auto;
+  margin-bottom: 0.2rem;
+}
+.close {
+  position: absolute; top: 18px; right: 28px;
+  font-size: 2.1rem; cursor: pointer;
+  color: #7c1c14;
+  background: rgba(255, 255, 255, 0.544);
+  border-radius: 50%;
+  width: 38px; height: 38px;
+  display: flex; align-items: center; justify-content: center;
+  z-index: 2;
+  transition: background 0.2s, color 0.2s;
+  font-weight: 700;
+}
+.close:hover {
+  background: #e74c3c;
+  color: #fff;
+}
+@media (max-width: 600px) {
+  .modal-card {
+    border-radius: 18px;
+    max-width: 98vw;
+    min-height: 400px;
+    padding-bottom: 1rem;
+  }
+  .modal-card img {
+    height: 200px; /* Bigger image on mobile too */
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+  }
+  .modal-info {
+    padding: 1.2rem 1rem 0.5rem 1rem;
+  }
+}
