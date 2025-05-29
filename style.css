@@ -15,6 +15,32 @@ html, body {
   width: auto;
 }
 
+.lang-switch {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  margin: 1.2rem 0 0.5rem 0;
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0.1rem 0.5rem 0.3rem 0.5rem;
+  border-bottom: 3px solid transparent;
+  transition: border-color 0.2s, color 0.2s;
+  outline: none;
+}
+
+.lang-btn.active,
+.lang-btn:focus-visible {
+  border-bottom: 3px solid #d3d3d3;
+}
+
+#languageSelect {
+  display: none;
+}
 
 .app-container {
   flex: 1;

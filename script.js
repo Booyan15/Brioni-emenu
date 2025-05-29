@@ -174,28 +174,28 @@ const menuItems = {
       },
       {
         name: "Салата мешана(мала)",
-        description: "Краставица, патлиџан, зелка, кромид",
+        description: "Краставица, патлиџан, зелка",
         price: "70 денари",
         category: "salata",
         image: "BPP_3111JPG.jpg"
       },
       {
         name: "Салата мешана(средна)",
-        description: "Краставица, патлиџан, зелка, кромид",
+        description: "Краставица, патлиџан, зелка",
         price: "120 денари",
         category: "salata",
         image: "BPP_3114JPG.jpg"
       },
       {
         name: "Салата мешана(голема)",
-        description: "Краставица, патлиџан, зелка, кромид",
+        description: "Краставица, патлиџан, зелка",
         price: "150 денари",
         category: "salata",
         image: "BPP_3119JPG.jpg"
       },
       {
         name: "Салата мешана(голема)",
-        description: "Краставица, патлиџан, зелка, кромид",
+        description: "Краставица, патлиџан, зелка",
         price: "200 денари",
         category: "salata",
         image: "BPP_3119JPG.jpg"
@@ -447,28 +447,28 @@ const menuItems = {
       },
       {
         name: "Mixed salad (small)",
-        description: "Cucumber, eggplant, cabbage, onion",
+        description: "Cucumber, eggplant, cabbage",
         price: "70 MKD",
         category: "salata",
         image: "BPP_3111JPG.jpg"
       },
       {
         name: "Mixed salad (medium)",
-        description: "Cucumber, eggplant, cabbage, onion",
+        description: "Cucumber, eggplant, cabbage",
         price: "120 MKD",
         category: "salata",
         image: "BPP_3114JPG.jpg"
       },
       {
         name: "Mixed salad (large)",
-        description: "Cucumber, eggplant, cabbage, onion",
+        description: "Cucumber, eggplant, cabbage",
         price: "150 MKD",
         category: "salata",
         image: "BPP_3119JPG.jpg"
       },
       {
         name: "Mixed salad (large)",
-        description: "Cucumber, eggplant, cabbage, onion",
+        description: "Cucumber, eggplant, cabbage",
         price: "200 MKD",
         category: "salata",
         image: "BPP_3119JPG.jpg"
@@ -721,28 +721,28 @@ const menuItems = {
       },
       {
         name: "Karışık salata (küçük)",
-        description: "Salatalık, patlıcan, lahana, soğan",
+        description: "Salatalık, patlıcan, lahana",
         price: "70 MKD",
         category: "salata",
         image: "BPP_3111JPG.jpg"
       },
       {
         name: "Karışık salata (orta)",
-        description: "Salatalık, patlıcan, lahana, soğan",
+        description: "Salatalık, patlıcan, lahana",
         price: "120 MKD",
         category: "salata",
         image: "BPP_3114JPG.jpg"
       },
       {
         name: "Karışık salata (büyük)",
-        description: "Salatalık, patlıcan, lahana, soğan",
+        description: "Salatalık, patlıcan, lahana",
         price: "150 MKD",
         category: "salata",
         image: "BPP_3119JPG.jpg"
       },
       {
         name: "Karışık salata (büyük)",
-        description: "Salatalık, patlıcan, lahana, soğan",
+        description: "Salatalık, patlıcan, lahana",
         price: "200 MKD",
         category: "salata",
         image: "BPP_3119JPG.jpg"
@@ -823,132 +823,41 @@ const menuItems = {
 
 
 
+// --- DATA ---
+
+// --- STATE ---
 let currentLang = "mk";
 let currentCategory = "skara";
 
-
+// --- DOM ELEMENTS ---
 const menuList = document.getElementById("menuList");
 const tabs = document.querySelectorAll(".tab");
 const noProductsMsg = document.getElementById("noProducts");
 const heroTitle = document.querySelector(".hero-text h1");
 const heroSubtitle = document.querySelector(".hero-text h2");
-const languageSelect = document.getElementById("languageSelect");
 const footerText = document.getElementById("footerText");
-
-function updateHeroAndCategories() {
-  const langData = menuItems[currentLang];
-
-  // Updatiranje Hero
-  heroTitle.textContent = langData.hero.title;
-  heroSubtitle.innerHTML = langData.hero.subtitle;
-
-  // Update kategorii
-  tabs.forEach(tab => {
-    const category = tab.getAttribute("data-category");
-    tab.textContent = langData.categories[category];
-  });
-}
-
-function renderMenu(category) {
-  menuList.innerHTML = "";
-  const filtered = menuItems[currentLang].items.filter(item => item.category === category);
-
-  if (filtered.length === 0) {
-    noProductsMsg.classList.remove("hidden");
-    noProductsMsg.textContent =
-      currentLang === "mk"
-        ? "Нема производи"
-        : currentLang === "tr"
-        ? "Ürün yok"
-        : "No products available";
-  } else {
-    noProductsMsg.classList.add("hidden");
-    filtered.forEach(item => {
-      const div = document.createElement("div");
-      div.className = "menu-item";
-      div.innerHTML = `
-        <img src="${item.image}" alt="${item.name}" />
-        <div class="details">
-          <h4>${item.name}</h4>
-          <p>${item.description}</p>
-          <div class="price">${item.price}</div>
-        </div>
-      `;
-      menuList.appendChild(div);
-    });
-  }
-}
-
-tabs.forEach(tab => {
-  tab.addEventListener("click", () => {
-    tabs.forEach(t => t.classList.remove("active"));
-    tab.classList.add("active");
-    const category = tab.getAttribute("data-category");
-    currentCategory = category;
-    renderMenu(category);
-  });
-});
-
-// Handle jazici promena
-languageSelect.addEventListener("change", (e) => {
-  currentLang = e.target.value;
-  updateHeroAndCategories();
-  renderMenu(currentCategory);
-
-  // Update footer
-  footerText.textContent =
-    currentLang === "mk"
-      ? "© 2025 Скара Бриони. Сите права се задржани."
-      : currentLang === "tr"
-      ? "© 2025 Brioni Izgara. Tüm hakları saklıdır."
-      : "© 2025 Brioni Grill. All rights reserved.";
-});
-
-// Initial load
-updateHeroAndCategories();
-renderMenu(currentCategory);
-
-document.querySelectorAll('.lang-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-
-    const selectedLang = btn.dataset.lang;
-    // Call your language change logic here using `selectedLang`
-    console.log("Selected language:", selectedLang);
-  });
-});
-
-// ...existing code...
-
-// Modal logic
 const foodModal = document.getElementById("foodModal");
 const modalImg = document.getElementById("modalImg");
 const modalName = document.getElementById("modalName");
 const modalDesc = document.getElementById("modalDesc");
 const modalPrice = document.getElementById("modalPrice");
 const closeModal = document.querySelector(".modal .close");
+const langBtns = document.querySelectorAll('.lang-btn');
 
-function openModal(item) {
-  modalImg.src = item.image;
-  modalImg.alt = item.name;
-  modalName.textContent = item.name;
-  modalDesc.textContent = item.description;
-  modalPrice.textContent = item.price;
-  foodModal.classList.remove("hidden");
+// --- FUNCTIONS ---
+
+function updateHeroAndCategories() {
+  const langData = menuItems[currentLang];
+  // Update Hero
+  heroTitle.textContent = langData.hero.title;
+  heroSubtitle.innerHTML = langData.hero.subtitle;
+  // Update categories
+  tabs.forEach(tab => {
+    const category = tab.getAttribute("data-category");
+    tab.textContent = langData.categories[category];
+  });
 }
 
-closeModal.addEventListener("click", () => {
-  foodModal.classList.add("hidden");
-});
-
-foodModal.addEventListener("click", (e) => {
-  if (e.target === foodModal) {
-    foodModal.classList.add("hidden");
-  }
-});
-
-// Update renderMenu to add click event to each menu item
 function renderMenu(category) {
   menuList.innerHTML = "";
   const filtered = menuItems[currentLang].items.filter(item => item.category === category);
@@ -981,4 +890,58 @@ function renderMenu(category) {
   }
 }
 
-// ...existing code...
+function openModal(item) {
+  modalImg.src = item.image;
+  modalImg.alt = item.name;
+  modalName.textContent = item.name;
+  modalDesc.textContent = item.description;
+  modalPrice.textContent = item.price;
+  foodModal.classList.remove("hidden");
+}
+
+// --- EVENT LISTENERS ---
+
+// Tabs (categories)
+tabs.forEach(tab => {
+  tab.addEventListener("click", () => {
+    tabs.forEach(t => t.classList.remove("active"));
+    tab.classList.add("active");
+    const category = tab.getAttribute("data-category");
+    currentCategory = category;
+    renderMenu(category);
+  });
+});
+
+// Language switcher (flags)
+langBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    langBtns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentLang = btn.dataset.lang;
+    updateHeroAndCategories();
+    renderMenu(currentCategory);
+    // Update footer
+    if (footerText) {
+      footerText.textContent =
+        currentLang === "mk"
+          ? "© 2025 Скара Бриони. Сите права се задржани."
+          : currentLang === "tr"
+          ? "© 2025 Brioni Izgara. Tüm hakları saklıdır."
+          : "© 2025 Brioni Grill. All rights reserved.";
+    }
+  });
+});
+
+// Modal close
+closeModal.addEventListener("click", () => {
+  foodModal.classList.add("hidden");
+});
+foodModal.addEventListener("click", (e) => {
+  if (e.target === foodModal) {
+    foodModal.classList.add("hidden");
+  }
+});
+
+// --- INITIAL LOAD ---
+updateHeroAndCategories();
+renderMenu(currentCategory);
