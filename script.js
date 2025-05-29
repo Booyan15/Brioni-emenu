@@ -912,6 +912,17 @@ tabs.forEach(tab => {
   });
 });
 
+function updateLangLabel() {
+  const langLabel = document.getElementById('langLabel');
+  if (!langLabel) return;
+  langLabel.textContent =
+    currentLang === "mk"
+      ? "Изберете јазик"
+      : currentLang === "tr"
+      ? "Dil seçin"
+      : "Choose language";
+}
+
 // Language switcher (flags)
 langBtns.forEach(btn => {
   btn.addEventListener('click', () => {
@@ -919,6 +930,7 @@ langBtns.forEach(btn => {
     btn.classList.add('active');
     currentLang = btn.dataset.lang;
     updateHeroAndCategories();
+    updateLangLabel();
     renderMenu(currentCategory);
     // Update footer
     if (footerText) {
@@ -941,6 +953,8 @@ foodModal.addEventListener("click", (e) => {
     foodModal.classList.add("hidden");
   }
 });
+
+
 
 // --- INITIAL LOAD ---
 updateHeroAndCategories();

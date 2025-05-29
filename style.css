@@ -42,6 +42,20 @@ html, body {
   display: none;
 }
 
+.lang-label {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 0.2rem; /* Reduced space below the label */
+  color: #e5e2e2;
+  letter-spacing: 0.01em;
+}
+.lang-switch {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  margin: 0.2rem 0 0.5rem 0; /* Reduced top margin for less space above flags */
+}
 .app-container {
   flex: 1;
   display: flex;
