@@ -226,16 +226,17 @@ select {
   background-color: #7c1c14;
   color: #fff;
   text-align: center;
-  padding: 0.2rem;
-  font-size: 0.9rem;
+  padding: 0.7rem 0 0.7rem 0; /* Increased padding */
+  font-size: 1rem;           /* Bigger font */
+  font-weight: 400;
 }
 
 .footer-madeby {
   background: #59150f;
   color: #fff;
   text-align: center;
-  font-size: 0.75rem;
-  padding: 0.3rem 0 0.4rem 0;
+  font-size: 0.75rem;          /* Smaller font */
+  padding: 0.3rem 0 0.4rem 0;  /* Less padding */
   letter-spacing: 0.03em;
 }
 
