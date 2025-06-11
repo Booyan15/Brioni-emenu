@@ -230,6 +230,15 @@ select {
   font-size: 0.9rem;
 }
 
+.footer-madeby {
+  background: #59150f;
+  color: #fff;
+  text-align: center;
+  font-size: 0.75rem;
+  padding: 0.3rem 0 0.4rem 0;
+  letter-spacing: 0.03em;
+}
+
 /* --- Modal Card Styles --- */
 .modal {
   display: flex;

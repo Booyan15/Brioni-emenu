@@ -821,7 +821,11 @@ const menuItems = {
   }
 };
 
-
+const madeByText = {
+  mk: "Направено од Бојан Поповски",
+  en: "Made by Bojan Popovski",
+  tr: "Bojan Popovski tarafından yapıldı"
+};
 
 // --- DATA ---
 
@@ -890,6 +894,13 @@ function renderMenu(category) {
   }
 }
 
+function updateMadeByFooter() {
+  const madeBy = document.getElementById('footerMadeBy');
+  if (madeBy) {
+    madeBy.textContent = madeByText[currentLang] || madeByText.en;
+  }
+}
+updateMadeByFooter();
 function openModal(item) {
   modalImg.src = item.image;
   modalImg.alt = item.name;
@@ -911,6 +922,8 @@ tabs.forEach(tab => {
     renderMenu(category);
   });
 });
+
+
 
 function updateLangLabel() {
   const langLabel = document.getElementById('langLabel');
@@ -943,6 +956,8 @@ langBtns.forEach(btn => {
     }
   });
 });
+
+
 
 // Modal close
 closeModal.addEventListener("click", () => {
