@@ -891,6 +891,8 @@ function renderMenu(category) {
       div.addEventListener("click", () => openModal(item));
       menuList.appendChild(div);
     });
+        updateMadeByFooter(); // <-- ADD THIS LINE
+
   }
 }
 
