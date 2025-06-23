@@ -14,112 +14,112 @@ const menuItems = {
       {
         name: "Порција со 5 ќебапи",
         description: "5 ќебапи, лебче и кромид",
-        price: "100 денари",
+        price: "110 денари",
         category: "skara",
         image: "BPP_3068JPG.jpg"
       },
       {
         name: "Порција со 6 ќебапи",
         description: "6 ќебапи, лебче и кромид",
-        price: "120 денари",
+        price: "130 денари",
         category: "skara",
         image: "BPP_3069JPG.jpg"
       },
       {
         name: "Порција со 7 ќебапи",
         description: "7 ќебапи, лебче и кромид",
-        price: "130 денари",
+        price: "150 денари",
         category: "skara",
         image: "BPP_3072JPG.jpg"
       },
       {
         name: "Порција со 8 ќебапи",
         description: "8 ќебапи, лебче и кромид",
-        price: "150 денари",
+        price: "170 денари",
         category: "skara",
         image: "BPP_3074JPG.jpg"
       },
       {
         name: "Порција со 10 ќебапи",
         description: "10 ќебапи, лебче и кромид",
-        price: "180 денари",
+        price: "200 денари",
         category: "skara",
         image: "BPP_3076JPG.jpg"
       },
       {
         name: "Порција со 15 ќебапи",
         description: "15 ќебапи, лебче и кромид",
-        price: "260 денари",
+        price: "290 денари",
         category: "skara",
         image: "BPP_3084JPG.jpg"
       },
       {
         name: "Порција со 20 ќебапи",
         description: "20 ќебапи, лебче и кромид",
-        price: "340 денари",
+        price: "380 денари",
         category: "skara",
         image: "BPP_3088JPG.jpg"
       },
       {
         name: "Ќебап (за дома)",
         description: "",
-        price: "16 денари",
+        price: "18 денари",
         category: "skara",
         image: "BPP_3096JPG.jpg"
       },
       {
         name: "Порција со колбаси",
         description: "Колбаси, лебче и кромид",
-        price: "220 денари",
+        price: "240 денари",
         category: "skara",
         image: "BPP_3089JPG.jpg"
       },
       {
         name: "Порција суџук",
         description: "Суџук, лебче и кромид",
-        price: "220 денари",
+        price: "240 денари",
         category: "skara",
         image: "BPP_3092JPG.jpg"
       },
       {
         name: "Плескавица (мала)",
         description: "",
-        price: "100 денари",
+        price: "110 денари",
         category: "skara",
         image: "BPP_3098JPG.jpg"
       },
       {
         name: "Плескавица (голема)",
         description: "",
-        price: "180 денари",
+        price: "200 денари",
         category: "skara",
         image: "BPP_3109JPG.jpg"
       },
       {
         name: "Порција Грчка плескавица",
         description: "Грчка плескавица, лебче и кромид",
-        price: "250 денари",
+        price: "270 денари",
         category: "skara",
         image: "BPP_3066JPG.jpg"
       },
       {
         name: "Порција Стек",
         description: "Стек, лебче и кромид",
-        price: "200 денари",
+        price: "220 денари",
         category: "skara",
         image: "BPP_3065JPG.jpg"
       },
       {
         name: "Порција копан",
         description: "Копан, лебче и кромид",
-        price: "200 денари",
+        price: "220 денари",
         category: "skara",
         image: "BPP_3093JPG.jpg"
       },
       {
         name: "Порција Пиле",
         description: "Пиле, лебче и кромид",
-        price: "180 денари",
+        price: "200 денари",
         category: "skara",
         image: "BPP_3082JPG.jpg"
       },
@@ -133,21 +133,21 @@ const menuItems = {
       {
         name: "Сендвич со ќебапи",
         description: "5 ќебапи, лебче и салата",
-        price: "100 денари",
+        price: "110 денари",
         category: "skara",
         image: "BPP_3147JPG.jpg"
       },
       {
         name: "Сендвич со пилешки копан",
         description: "пилешки копан, лебче и салата",
-        price: "110 денари",
+        price: "120 денари",
         category: "skara",
         image: "BPP_3148JPG.jpg"
       },
       {
         name: "Кајмак",
         description: "Кајмак",
-        price: "50 денари",
+        price: "60 денари",
         category: "dodatoci",
         image: "BPP_3121JPG.jpg"
       },
@@ -238,14 +238,14 @@ const menuItems = {
       {
         name: "Вода(обична)",
         description: "Пелистерка, Изворска",
-        price: "40 денари",
+        price: "50 денари",
         category: "pijaloci",
         image: "BPP_3135JPG.jpg"
       },
       {
         name: "Вода(газирана)",
         description: "Пелистерка, Кожувчанка",
-        price: "40 денари",
+        price: "50 денари",
         category: "pijaloci",
         image: "BPP_3136JPG.jpg"
       },
@@ -266,7 +266,7 @@ const menuItems = {
       {
         name: "Кафе",
         description: "",
-        price: "50 денари",
+        price: "60 денари",
         category: "pijaloci",
         image: "BPP_3146JPG.jpg"
       }
